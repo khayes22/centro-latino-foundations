@@ -76,12 +76,54 @@ h1, h3, h4, h5, p{
       margin-bottom: 22px;
 }
 
+h1,h2,h3,h4{
+      color: #6c89db;
+}
+
+h1 {
+      font-size: 36px;
+      line-height: 44px;
+}
+
+h2 {
+      font-size: 24px;
+      line-height: 44px;
+}
+
+h3 {
+      font-size: 21px;
+}
+
+h4 {
+      font-size: 18px;
+}
+
+h5 {
+      color: #4568c9;
+      font-size: 14px;
+      font-weight: 400;
+}
+
+strong {
+      font-weight: 400;
+}
+cite,
+em {
+      font-style: italic;
+}
+
 
 /*Leads*/
 
 
 /*Links*/
+a {
+      color: #6c89db;
+}
 
+a:hover {
+      color: #a9b2b9;
+}
 
 
 /*Buttons*/
@@ -106,9 +148,15 @@ h1, h3, h4, h5, p{
       padding-right: 1em;
 }
 
+.tagline {
+      margin: 66px 0 22px 0;
+}
+
 
 /*Primary Footer*/
 .primary-footer {
+      color: #6c89db;
+      font-size: 14px;
       padding-bottom: 44px;
       padding-top: 44px;
 }
@@ -121,15 +169,37 @@ h1, h3, h4, h5, p{
 
 /*Navigation*/
 
+.primary-nav {
+      font-size: 14px;
+      font-weight: 400;
+}
+
 
 
 
 /*Home*/
 
-.hero {
-      padding: 22px 80px 66px 80px;
-}      
+body {
+      color: #273a6e;
+      font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
 
+.hero {
+      line-height: 44px;
+      padding: 22px 80px 66px 80px;
+}  
+
+hero h2 {
+      font-size: 36px;
+}
+
+hero p {
+      font-size: 24xp;
+}
+
+.teaser a:hover h3 {
+      color: #a9b2b9;
+}
 
 /*Speakers*/
 
