@@ -1,16 +1,15 @@
 .nav {
 background-color: blue;
 display: flex;
-justify-content: space-around;
+justify-content: center;
 }
 
 .a {
     background-color: cyan;
-    text-decoration: none;
     margin: 10px;
 }
 
 .content {
     font-size: 14pt;
-
+    font-style: italic;
 }
