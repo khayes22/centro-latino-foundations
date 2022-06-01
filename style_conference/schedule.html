@@ -7,6 +7,7 @@
     <title>Style Conference-Schedule</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="primary-header container group">
@@ -15,11 +16,13 @@
         </h1>
         <h3 class="tagline">August 24 - 26th Omaha,NE</h3>
         <nav class=" nav primary-nav">
-            <a href="index.html">Home</a>
-            <a href="speakers.html">Speakers</a>
-            <a href="schedule.html">Schedule</a>
-            <a href="venue.html">Venue</a>
-            <a href="register.html">Register</a>
+            <ul>
+            <li><a href="index.html">Home</a></li><!--
+            ---><li><a href="speakers.html">Speakers</a></li><!--
+            ---><li><a href="schedule.html">Schedule</a></li><!--
+            ---><li><a href="venue.html">Venue</a></li><!--
+            ---><li><a href="register.html">Register</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -37,8 +40,77 @@
         </div>
     </section>
 
+    <section class="row">
+        <div class="container">
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="row">
+                            Workshops
+                        </th>
+                        <td class="schedule-offset" colspan="2">
+                            August 24th
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            <time datetime="08:30:00">8:30 AM</time>
+                        </th>
+                        <td colspan="2">
+                            Registration
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <time datetime="09:00:00">9:00 AM</time>
+                        </th>
+                        <td>
+                            <a href="speakers.html#vanessa-kasun">
+                                <h4>Vanessa Kasun</h4>
+                                React from Scratch. Creating a React App from Ground up!
+                            </a>
+                        </td>
+                        <td>
+                            <a href="speakers.html#joshua-burden">
+                                <h4>Joshua Burden</h4>
+                                Lights! Camera! Interaction! Design Inspiration from Filmmakers
+                            </a>
+                        </td>
+                    </tr>
+                    <th scope="row">
+                        <time datetime="12:30:00">12:30 PM</time>
+                    </th>
+                    <td class="schedule-offset" colspan="2">
+                        Lunch
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        <time datetime="14:00:00">2:00 PM</time>
+                    </th>
+                    <td>
+                        <a href="speakers.html#david-tarvin">
+                            <h4>David Tarvin</h4>
+                            Crafty Coding: Generating Knitting Patterns
+                        </a>
+                    </td>
+                    <td>
+                        <a href="speakers.html#nate-decker">
+                            <h4>Nate Decker</h4>
+                            From Muppets to Mastery: Core UX Principles from Mr. Jim Henson
+                        </a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
     <footer class=" primary-footer container group">
-        <small>&copy; Developer Style COnference</small>
+        <small>&copy; Developer Style Conference</small>
         <nav class="nav">
             <a href="index.html">Home</a>
             <a href="speakers.html">Speakers</a>
