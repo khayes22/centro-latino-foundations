@@ -1,48 +1,30 @@
-body {
-    margin: 0;
-}
 h1 {
     margin: 0;
 }
 .item1 {
     grid-area: header;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
 }
 .item2 {
     grid-area: left;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
 }
 .item3 {
     grid-area: middle;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
 }
 .item4 {
     grid-area: right;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
 }
 .item5 {
     grid-area: footer-left;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
 }
 .item6 {
     grid-area: footer-right;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
 }
 .grid-container {
  display: grid;
  grid-template-areas: 
- "header header header header header header"
- "left left left left left left"
- "middle middle middle middle middle middle"
- "right right right right right right"
- "footer-left footer-left footer-left footer-left footer-left footer-left"
- "footer-right footer-right footer-right footer-right footer-right footer-right";
+ "header header header header"
+ "left middle middle right"
+ "footer-left footer-right footer-right footer-right";
  background-color: #00a000;
  grid-gap: 0.25em;
  padding: 0.25em;   
@@ -51,4 +33,9 @@ html, body {
     font-family: sans-serif;
     font-size: 3vh;
     color: #303030;
+}
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0.5em;
+    text-align: center;
 }
