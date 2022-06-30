@@ -24,7 +24,7 @@ h1 {
  grid-template-areas: 
  "header header header header"
  "left middle middle right"
- "footer-left footer-right footer-right footer-right";
+ "footer-left footer-left footer-right footer-right";
  background-color: #00a000;
  grid-gap: 0.25em;
  padding: 0.25em;   
