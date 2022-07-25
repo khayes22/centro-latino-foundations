@@ -149,25 +149,188 @@ var x = 9;
 //     console.log('Zombies!!');
 // }
 
-var grade = 50;
+// var grade = 50;
 
-if (grade >= 90) {
-    console.log('You got an A');
-} else if (grade >=80 && grade <= 89) {
-    console.log('You got a B');
-} else if (grade >= 70) {
-    console.log('You got a C');
-} else if (grade >= 60) {
-    console.log('You got a D');
-} else {
-    console.log('Failure!')
+// if (grade >= 90) {
+//     console.log('You got an A');
+// } else if (grade >=80 && grade <= 89) {
+//     console.log('You got a B');
+// } else if (grade >= 70) {
+//     console.log('You got a C');
+// } else if (grade >= 60) {
+//     console.log('You got a D');
+// } else {
+//     console.log('Failure!')
+// }
+
+// var goldCoins = 29;
+// if (goldCoins > 5) {
+//     console.log('A bit of pocket change');
+// } else if (goldCoins > 10) {
+//     console.log('Great!');
+// } else if (goldCoins > 20) {
+//     console.log('I am rich');
+// }
+
+// var cars =["Saab", "Suburu", "Audi","Buick","Chevy", "Dodge", "Ford"];
+// for (var i = 0; i < cars.length; i++) {
+//     if (i % 3==0) {
+//         continue;
+//     } else {
+//         console.log("Car " + (i + 1) + "is a " + cars[i]);
+//     }
+// }
+
+// var cars =["Saab", "Suburu", "Audi","Buick","Chevy", "Dodge", "Ford"];
+// for (var i = 0; i < cars.length; i--) {
+//     if (i % 3==0) {
+//         continue;
+//     } else {
+//         console.log("Car " + (i + 1) + "is a " + cars[i]);
+//     }
+// }
+
+// var cars =["Saab", "Suburu", "Audi","Buick","Chevy", "Dodge", "Ford"];
+// for (var i = 0; i < cars.length; i-=2) {
+//     if (i % 3==0) {
+//         continue;
+//     } else {
+//         console.log("Car " + (i + 1) + "is a " + cars[i]);
+//     }
+// }
+
+// var cars =["Saab", "Suburu", "Audi","Buick","Chevy", "Dodge", "Ford"];
+// for (var i = 0; i < cars.length; i++) {
+//     if (i % 3==0) {
+//         continue;
+//     } else {
+//         console.log("Car " + (i + 1) + "is a " + cars[i]);
+//     }
+// }
+
+// var cars =["Saab", "Suburu", "Audi","Buick","Chevy", "Dodge", "Ford"];
+// for (var i = 0; i < cars.length; i++) {
+//     if (i > 0 && i % 3==0) {
+//         break;
+//     } else {
+//         console.log("Car " + (i + 1) + "is a " + cars[i]);
+//     }
+// }
+
+// var i = 1;
+// var total = 0;
+// while (total < 50) {
+//     console.log('i is ' + i);
+//     total +=i;
+//     console.log('total is now ' + total);
+//     i++;
+// }
+// console.log('loop is now done');
+
+// var i = 1;
+// var total = 1;
+// do {
+//     console.log('i is ' + i);
+//     total *=i;
+//     console.log('total is now' + total);
+//     i++;
+// }   while (total < 500);
+// console.log('loop is now done');
+
+// var i= 0;
+// console.log('start of while loop');
+// while(i < 6) {
+//     console.log('i = ' + i);
+//     i++;
+// }
+// console.log('End of while loop');
+
+// var j = 0;
+// console.log('start of do-while loop');
+// do {
+//     console.log('j = ' + j);
+//     j++;
+// } while (j < 6);
+// console.log('End of do-while loop');
+
+// var i= 6;
+// console.log('start of while loop');
+// while(i < 6) {
+//     console.log('i = ' + i);
+//     i++;
+// }
+// console.log('End of while loop');
+
+// var j = 6;
+// console.log('start of do-while loop');
+// do {
+//     console.log('j = ' + j);
+//     j++;
+// } while (j < 6);
+// console.log('End of do-while loop');
+
+// function addTwoNumbers() {
+//     var total = 0;
+//     total = 3+5;
+//     console.log('total is' + total);
+// }
+//     addThreePlusFive;
+
+//     function addTwoPlusSeven() {
+//         var total = 0;
+//         total = 2+7;
+//         console.log('Total is' + total);
+
+//         function AddTwoPlusSeven
+    
+// }
+
+// function addTwoNumbers (num1, num2) {
+//     console.log('The total of' + num1 + "and" + num2 + 'is' + (num1 + num2));
+// }
+// addTwoNumbers (6, 12);
+// addTwoNumbers (17, 13);
+// addTwoNumbers (52, 48);
+// addTwoNumbers (103, 241);
+
+var a = "Hello";
+
+// function greet() {
+//     console.log(a);
+// }
+
+// greet();
+// console.log(a);
+
+// function change() {
+//     a = 3;
+// }
+
+// console.log(a);
+// change();
+// console.log(a);
+
+// function greet() {
+//     a = "Hello";
+// }
+
+// greet();
+// console.log(a);
+
+// function greet() {
+//     var a = "Hello";
+// }
+
+// greet();
+// console.log(a);
+
+function greet() {
+    var a = "Hello";
+    if (a =="Hello") {
+        var b = "World";
+        console.log(a + " " + b)
+    }
+    console.log(a + " " + b);
 }
 
-var goldCoins = 29;
-if (goldCoins > 5) {
-    console.log('A bit of pocket change');
-} else if (goldCoins > 10) {
-    console.log('Great!');
-} else if (goldCoins > 20) {
-    console.log('I am rich');
-}
+greet();
