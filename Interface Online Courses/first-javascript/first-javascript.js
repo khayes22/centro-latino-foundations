@@ -324,13 +324,47 @@ var a = "Hello";
 // greet();
 // console.log(a);
 
-function greet() {
-    var a = "Hello";
-    if (a =="Hello") {
-        var b = "World";
-        console.log(a + " " + b)
-    }
-    console.log(a + " " + b);
-}
+function greet() {   //block 1
+    var a = "Hello";  //scoped to entire function
+    if (a =="Hello") {  //BLOCK2
+        var b = "World"; //scoped to entire function
+        console.log(a + " " + b); //hello world
+    } //end of block 2
+    console.log(a + " " + b);  //hello world
+} //end of block 1
 
-greet();
+// greet();
+
+function greet2 () {  //block 1
+    let a = "hello"; //scoped to block 1
+    if (a == "hello") { //block 2
+        let b = "world"; //scoped to block 2
+        console.log(a + " " + b); //hello world
+    } //end of block 2
+    console.log(a + " " + b); //uncaught refernce error -b is not defined
+} //end of block 1
+
+// greet2 ();
+
+// (function showMessage(){
+//     console.log("Look at me you didn't even call my function!");
+// }) (); 
+
+// const shirt = "green";
+// console.log("my shirt is " + shirt);
+// shirt = "red";
+// console.log("my shirt is now " + shirt); 
+
+// const shirts = ["blue", "green", "red"];
+// console.log(shirts);
+// shirts.push("yellow");
+// console.log(shirts);
+// shirts = ["blue", "green", "red", "yellow"]; 
+
+// const goodGuys = ["luke", "han", "lando", "ben"];
+// goodGuys.forEach(function(guy) {
+//     console.log("I'm friends with " + guy);
+// }) 
+
+// document.querySelector(".title").innerHTML = "I changed the Title"; 
+
