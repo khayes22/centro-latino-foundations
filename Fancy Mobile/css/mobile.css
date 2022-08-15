@@ -1,0 +1,21 @@
+@media screen and (hover: none) and (orientation:portrait) {
+    html, body {
+        font-size: 5vh;
+    }
+    nav {
+            flex-direction: column; /*change nav items to a column*/
+            display: none; /*dont display nav on mobile the hamburger does that */
+            left: 2vh;
+            top: calc(2vh + 1em); /*below the hamburger menu */
+            width: 12ch; /*widest is 12 chars*/
+            align-items: center; /*center each flex item text */
+        }
+    #menu {
+            display: block; /*displaying the hamburger menu on mobile*/
+        }
+    .menu-show {
+            display: flex; /* override the display: none above*/
+        }
+    }
+
+}

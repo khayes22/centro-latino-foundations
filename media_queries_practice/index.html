@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query Pratice</title>
     <style>
         /*font style default*/
@@ -55,7 +52,7 @@
             font-size: 0.8em;
         }
         /*our media query for portrait mode a phone held normally*/
-        @media screen and (hover:none) and (orientation:portrait) {
+        @media screen and (hover: none) and (orientation:portrait) {
             html, body {
                 font-size: 5vh; /* easier to read on phones */
             }
@@ -63,7 +60,7 @@
                 flex-direction: column; /*change nav items to a column*/
                 display: none; /*dont display nav on mobile the hamburger does that */
                 left: 2vh;
-                top: calc(2vh+1em); /*below the hamburger menu */
+                top: calc(2vh + 1em); /*below the hamburger menu */
                 width: 12ch; /*widest is 12 chars*/
                 align-items: center; /*center each flex item text */
             }
