@@ -1,0 +1,8 @@
+#home {
+    background-image: url('.../images/hw-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
