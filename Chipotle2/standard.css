@@ -1,8 +1,97 @@
+html, body {
+    margin: 0;
+    color: white;
+    font-size: 1.8vh;
+    font-family: sans-serif;
+}
+
+header {
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    align-items: flex-end;
+}
+
+#logo {
+    height: 13vh;
+
+}
+ nav a {
+    text-decoration: none;
+    color: #543a2d;
+    margin-right: 2ch;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+
+}
+#options {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+    margin-bottom: .5em;
+    text-align: right;
+}
+#options a {
+    padding: 0.7em;
+}
+#options > span {
+    white-space: nowrap;
+}
+
+#options > span:first-child {
+    margin-bottom: 1.5em;
+}
+#options > span:last-child > a {
+    background-color: #b2d2ca;
+}
+
 #home {
-    background-image: url('.../images/hw-background.jpg');
+    background-image: url('images/hw-background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
     background-position: center;
+}
+main {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+}
+main > h1 {
+    margin: 0;
+}
+
+main > h2 {
+    font-size:  1em;
+    margin: 0;
+
+}
+
+#subheader {
+    position: fixed;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    background-color: #543a2d;
+    text-align: center;
+    padding: .7em;
+
+}
+#subheader i {
+    font-size: 2em;
+    vertical-align: middle;
+
 }
