@@ -1,8 +1,6 @@
 html, body {
     font-family: "Lobster", sans-serif;
     font-size: 400;
-    background-color: black;
-    color: antiquewhite
 }
 #mobile-menu {
     display: none;
@@ -10,27 +8,24 @@ html, body {
 .container1 {
     position: fixed;
     width: 100%;
-    height: 30%;
-    margin: 25px 25px 25px 25px;
+    height: 10vw ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-#logo {
-    max-width: 10vh;
-    max-height: 10vh;
-    margin: 25px 25px 25px 25px;
+.container1 img {
+    height: 10vw;
+    vertical-align: middle;
 }
 
 #nav1 {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin: 25px 25px 25px 25px;
-    width: 75%;
-    padding: 40px;
-    box-sizing: border-box;
 }
+
 #nav1 > a {
-    color: antiquewhite
+    color: antiquewhite;
 }
 #nav1 > i {
     color: antiquewhite;
@@ -41,11 +36,20 @@ html, body {
 main {
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 #mainstory {
-    background-image: url("project-images/fisherman-illustration.jpg");
+    background-image: url("../css/project-images/fisherman-illustration.jpg");
+    background-position: center;
+    background-size: cover;
     width: 100%;
     height: 100vh;
-    background-repeat: no-repeat;
+}
+#mainstory  p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,calc(-50% + 2em));
+    text-align: center;
 }
