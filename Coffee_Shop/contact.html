@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/standard.css">
     <link media="screen and (hover:none)" rel="stylesheet" href="css/mobile.css">
     <script src="https://kit.fontawesome.com/42824950c6.js" crossorigin="anonymous"></script>
+    <script src="css/javascript.js"></script>
 </head>
 <body>
     <a href="#mobile-menu" id="mobile-menu">
@@ -36,7 +37,64 @@
         <a href="https://www.instagram.com/lighthouse_roastery/" title="instagram"><i class="fa-brands fa-square-instagram"></i></a>
         <a href="https://www.snapchat.com/LighthouseRoastery/" title="snapchat"><i class="fa-brands fa-square-snapchat"></i></a>
         <a href="https://www.reddit.com/lighthouseroastery/" title="reddit"><i class="fa-brands fa-square-reddit"></i></a>
+        <a href="mailto://lighthouseroastery@gmail.com/" title="email"><i class="fa-brands fa-google"></i></a>
+
+            <img src="css/project-images/cell phone coffee.jpg">
+    </div>
+
+    <div class="contactform">
+        <form action="action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your Name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Last Name..">
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write Us Here.." style="height:200px"></textarea>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+    <div class="slideqoute-container">
+        <div class="slideqoutes">
+            <q>Lighthouse Roastery is my favorite spot to have a latte and watch the ships in the water.</q>
+                <p class="author">-Susan Johnson</p>
+        </div>
         
+        <div class="slideqoutes">
+            <q>This cafe has been my daily spot for coffee and donuts for 25 years.</q>
+                <p class="author">-Aaron Irons</p>
+        </div>
+
+        <div class="slideqoutes">
+            <q>I love taking my lunch break, eating some delicious food and drinking coffee right by the bay!</q>
+                <p class="author">-Andrea Lovell</p>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+    </div>
+
+    <div class="coffeeorder">
+        <h1>Our Signature Coffee in all varieties now available for purchase online</h1>
+        <figure>
+            <img src="css/project-images/coffee package.jpg" alt="coffee package">
+            <figcaption>Lighthouse Roastery House Blend $7.99</figcaption>
+        </figure>
+        <figure>
+            <img src="css/project-images/coffee-pods.jpg" alt="coffee pods">
+            <figcaption>Lighthouse Roastery Coffee Pods $6.99</figcaption>
+        </figure>
+        <figure>
+            <img src="css/project-images/cold brew bottles.jpg" alt="cold brew">
+            <figcaption>Lighthouse Cold Brew $3.50</figcaption>
+        </figure>
+        <button id="buynow" type="button">Buy Now!</button>
     </div>
 </body>
 </html>
