@@ -85,11 +85,12 @@ html, body {
     }
 }
 .main {
-    font-size: 7em;
     position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,calc(-50% + 5em));
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 .main p {
     left: 50%;
