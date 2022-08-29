@@ -1,9 +1,10 @@
 html, body {
     font-family: "Lobster", sans-serif;
-    font-size: 400;
-    background-color: darkkhaki;
+    font-size: 24px;
 }
 .container1 {
+    margin: 60px;
+    padding: 40px 25px 25px 15px;
     position: absolute;
     width: 100%;
     height: 10vw ;
@@ -18,16 +19,19 @@ html, body {
 }
 
 .nav1 {
+  letter-spacing: normal;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    padding: 15px;
+    padding-right: 30px;
+    justify-content: space-around;
 }
 
 .nav1 > a {
-    color: antiquewhite;
+    color: black;
 }
 .nav1 > i {
-    color: antiquewhite;
+    color: black;
 }
 
   .slideshow-images {
@@ -104,15 +108,135 @@ html, body {
 .mainstory {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10vw;
+    margin-top: 30vw;
     float: left;
     width: 800px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    max-width: 500px;
 }
 .mainstory  p {
   display: inline-block;
-  width: 600px;
-  wor
 }
+.mainstory img {
+  max-width: 300px;
+  height: 300px;
+}
+.menu1  {
+  height: 40vh;
+  padding: 30px 20px 20px 15px;
+  margin: 40px;
+}
+.menu2 {
+  margin: 40px;
+  padding: 30px 20px 20px 15px;
+}
+#coffees {
+  padding: 10px 15px 15px 5px;
+  max-width: 500px;
+  margin: 10px 50px 20px;  
+}
+#coffees p {
+  float: left;
+}
+#coffees img {
+  max-width: 100px;
+  height: 100px;
+}
+.drinks {
+  margin: 10px 50px 20px;
+  padding: 5px 3px 3px 5px;
+  max-width: 500px;
+}
+.drinks img {
+  max-width: 100px;
+  height: 100px;
+}
+.bakery {
+  margin: 10px 50px 20px;
+  padding: 5px 3px 3px 5px;
+  max-width: 500px;
+}
+.bakery img {
+  max-width: 100px;
+  height: 100px;
+}
+.breakfast img {
+  max-width: 100px;
+  height: 100px;
+}
+.lunch img {
+  max-width: 100px;
+  height: 100px;
+}
+#socialmedia img {
+  max-width: 300px;
+  height: 300px;
+}
+#socialmedia {
+  max-width: 500px;
+  max-height: 500px;
+  margin: 90px;
+  margin-left: 100px;
+  padding: 45px 35px 35px 30px;
+}
+#soc-links a {
+  margin: 1em;
+  padding: 25px 10px 10px 5px;
+}
+.contactorder img {
+  max-width: 100px;
+  height: 100px;
+}
+form {
+  padding: 15px 15px 15px 10px;
+  margin: 30px;
+}
+  input[type=text], select, textarea {
+    width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical 
+  }
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: gray;
+  }
+  .contactform {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  #buynow {
+    padding: 16px;
+    font-size: 12px;
+    color: #f2f2f2;
+    border-radius: 8px;
+    background-color: #555555;
+    border: 2px solid white;
+    transition-duration: 0.3s;
+  }
+  #buynow:hover {
+    background-color: #f2f2f2;
+    color: #555555;
+  }
+  #coffeeorder figure > img {
+    max-width: 35px;
+    height: 35px;
+  }
+
 .slidequote-container {
     position: relative;
     background: #f1f1f1f1;
