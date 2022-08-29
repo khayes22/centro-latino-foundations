@@ -18,6 +18,12 @@ html, body {
     vertical-align: middle;
 }
 
+.copy-nav {
+  position: absolute;
+  top: 600px;
+
+}
+
 .nav1 {
   letter-spacing: normal;
     display: flex;
@@ -124,11 +130,15 @@ html, body {
   height: 300px;
 }
 .menu1  {
-  height: 40vh;
+  position: relative;
+  top: 40vw;
+  left: 150px
+  height: 400px;
   padding: 30px 20px 20px 15px;
   margin: 40px;
 }
 .menu2 {
+  position: relative;
   margin: 40px;
   padding: 30px 20px 20px 15px;
 }
@@ -291,4 +301,54 @@ form {
 }
   .author {
     color: cornflowerblue;
+}
+
+.atmosphere{
+  position: fixed;
+  top: 50%;
+}
+
+.atmosphere h1 {
+
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
 }
