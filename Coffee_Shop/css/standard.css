@@ -3,9 +3,10 @@ html, body {
     font-size: 24px;
 }
 .container1 {
+    top: 0;
     margin: 60px;
     padding: 40px 25px 25px 15px;
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 10vw ;
     display: flex;
@@ -14,14 +15,21 @@ html, body {
     z-index: 2;
 }
 .container1 img {
+    position: relative;
     height: 10vw;
     vertical-align: middle;
 }
 
 .copy-nav {
   position: absolute;
-  top: 600px;
-
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 30px;
+  padding: 5px;
+}
+.copy-nav a {
+  color: black;
 }
 
 .nav1 {
@@ -114,9 +122,9 @@ html, body {
 .mainstory {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30vw;
+    margin-top: 10vh;
     float: left;
-    width: 800px;
+    width: 500px;
     position: relative;
     top: 50%;
     left: 50%;
@@ -131,7 +139,7 @@ html, body {
 }
 .menu1  {
   position: relative;
-  top: 40vw;
+  top: 15vw;
   left: 150px
   height: 400px;
   padding: 30px 20px 20px 15px;
@@ -139,6 +147,7 @@ html, body {
 }
 .menu2 {
   position: relative;
+  top: 30vh;
   margin: 40px;
   padding: 30px 20px 20px 15px;
 }
@@ -172,9 +181,19 @@ html, body {
   max-width: 100px;
   height: 100px;
 }
+.breakfast {
+  margin: 10px 50px 20px;
+  padding: 5px 3px px 5px;
+  max-width: 500px;
+}
 .breakfast img {
   max-width: 100px;
   height: 100px;
+}
+.lunch {
+  margin: 15px 10px 10px 5px;
+  padding: 5px 3px px 5px;
+  max-width: 500px;
 }
 .lunch img {
   max-width: 100px;
@@ -185,6 +204,7 @@ html, body {
   height: 300px;
 }
 #socialmedia {
+  top: 
   max-width: 500px;
   max-height: 500px;
   margin: 90px;
@@ -304,8 +324,10 @@ form {
 }
 
 .atmosphere{
-  position: fixed;
-  top: 50%;
+  position: absolute;
+  margin-top: 50%;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .atmosphere h1 {
@@ -339,16 +361,4 @@ form {
     padding: 10px;
   }
   
-  @media screen and (max-width: 900px) {
-    .column {
-      width: 50%;
-    }
-  }
   
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
-  
-}
