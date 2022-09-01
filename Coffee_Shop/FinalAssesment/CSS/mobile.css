@@ -1,0 +1,40 @@
+html body {
+    font-family: "Montserrat";
+    font-size: 24px;
+    text-decoration: none;
+    text-align: left;
+    background-image: url(../CSS/javascript/images/images/kitten-v.jpg);
+    width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2 img {
+    height: 90px;
+    width: 90px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+           transition:          transform .8s ease-in-out
+}
+h2 img:hover {
+    -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.multicolortext {
+    background-image:linear-gradient(to right, orange, black);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+nav {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    float: right;
+}
+nav a {
+    color: orange;
+}
+nav a:hover {
+    cursor: url("javascript/images/images/pawprint.png"), auto;
+}
